@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link to="/" className='flex items-center gap-2' onClick={() => { setActive(""); window.scroll(0,0); }}>
           <img src={logo} alt="logo" className='object-contain w-9 h-9' />
-          <p className='text-white text-[18px] font-bold cursor-pointer inline-block'>Taher <span className='sm:block hidden'> |  portfolio </span></p>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex inline-block'>Taher &nbsp; <span className='sm:block hidden'> | &nbsp; portfolio </span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav, index) => (
@@ -32,7 +32,23 @@ const Navbar = () => {
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain cursor-pointer' onClick={() => setToggle(!toggle)} />
-
+            <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
+              <ul className='list-none flex justify-end items-start flex-col gap-4'>
+                {navLinks.map((nav, index) => (
+                  <li key={index}
+                    className={`
+                      ${active === nav.title ? "text-white" : "text-secondary"} font-poppins text-[16px] font-medium cursor-pointer
+                    `}
+                    onClick={() => {
+                      setToggle(!toggle);
+                      setActive(nav.title);
+                    }}
+                  >
+                    <a href={`#${nav.id}`}>{nav.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
         </div>
       </div>
     </nav>
