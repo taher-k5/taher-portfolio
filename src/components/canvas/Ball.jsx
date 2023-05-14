@@ -20,7 +20,7 @@ const Ball = (props) => {
         />
         <Decal 
           position={[0,0,1]}
-          rotation={[2 * Math.PI, 0, 2.5]}     
+          rotation={[2 * Math.PI, 0, 6.5]}     
           flatShading 
           map={decal}
         />
