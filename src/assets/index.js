@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cicd from "./tech/cicd.png";
+import php from "./tech/php.png";
+import python from "./tech/python.png";
+import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  cicd,
+  python,
+  php,
+  mysql,
 };
