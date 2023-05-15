@@ -24,6 +24,8 @@ import {
     mysql,
     python,
     cicd,
+    amici,
+    fx,
   } from "../assets";
 
   export const navLinks = [
@@ -123,7 +125,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Amici Infotech",
-      icon: starbucks,
+      icon: amici,
       iconBg: "#383E56",
       date: "Jan 2020 - September 2022",
       points: [
@@ -136,8 +138,8 @@ import {
     {
       title: "Full Stack Developer",
       company_name: "Fx data lab",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      icon: fx,
+      iconBg: "#383E56",
       date: "Aug 2022 - present",
       points: [
         "Developing and maintaining web applications using React.js, django, laravel and other related technologies.",

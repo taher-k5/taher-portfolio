@@ -29,6 +29,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import amici from "./company/amici.png";
+import fx from "./company/fxdatalab.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -67,4 +69,6 @@ export {
   python,
   php,
   mysql,
+  amici,
+  fx,
 };
