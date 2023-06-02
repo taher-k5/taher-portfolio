@@ -35,6 +35,7 @@ import fx from "./company/fxdatalab.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bank from "./reactbank.png";
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   mysql,
   amici,
   fx,
+  bank,
 };

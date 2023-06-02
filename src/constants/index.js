@@ -19,6 +19,7 @@ import {
     carrent,
     jobit,
     tripguide,
+    bank,
     threejs,
     php,
     mysql,
@@ -179,16 +180,16 @@ import {
 
   const projects = [
     {
-      name: "Car Rent",
+      name: "bank site",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Welcome to our bank's landing page. Discover a secure and intuitive interface designed for seamless navigation. Explore our range of financial services and access essential information with ease. Experience the convenience of modern banking at your fingertips.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
@@ -196,50 +197,60 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: bank,
+      source_code_link: "https://github.com/taher-k5/react-vite-tailwind",
     },
     {
-      name: "Job IT",
+      name: "Buy Porperty Online",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to buy or rent property imn that selective area for their suitable price.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "craft-cms",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mysql",
           color: "pink-text-gradient",
         },
+        {
+          name: "php",
+          color: "blue-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: jobit,      
     },
     {
-      name: "Trip Guide",
+      name: "Ask Anything",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The ultimate search engine powered by Bing and ChatGPT. Get accurate results from Bing's vast index and engage in conversational queries with ChatGPT for an interactive search experience. Find answers, recommendations, and explore topics like never before. Discover the power of AskJeeves today.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "django",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "chatgpt",
           color: "pink-text-gradient",
         },
+        {
+          name: "redis",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "green-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: tripguide,      
     },
   ];
 
